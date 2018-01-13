@@ -23,6 +23,7 @@ fd = open(archivo, O_RDWR|O_CREAT, DEF_MODE);
 
 write(fd,"prueba",6);
 
+fclose(fp1);
 close(fd);
 
 exit(0);
